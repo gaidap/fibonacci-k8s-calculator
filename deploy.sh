@@ -13,5 +13,5 @@ kubectl apply -f k8s
 
 kubectl set image deployments/client-deployment client=pgaida/fib-client:$GIT_SHA
 kubectl set image deployments/server-deployment server=pgaida/fib-server:$GIT_SHA
-kubectl set image deployments/worker-deployment worker=pgaida/fib-worker$GIT_SHA
+kubectl set image deployments/worker-deployment worker=pgaida/fib-worker:$GIT_SHA
 
